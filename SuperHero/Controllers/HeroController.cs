@@ -15,6 +15,7 @@ namespace SuperHero.Controllers
             db = new ApplicationDbContext();
         }
         // GET: Hero
+        
         public ActionResult Index()
         {
             var allHeroes = db.Heroes;
